@@ -38,7 +38,7 @@ Make this script runnable by typing in your console:
 
 ### 😺 Simplified usage
 
-If you want to have simple as possible download flow, additionally open `token.txt` file and write down your token.
+If you want your download flow to be as simple as possible, additionally open `token.txt` file and write down your token.
 
 After that, just type `./modelget.sh` and it will begin downloading files in your current directory. Token will be retrieved from `token.txt` and list of downloads -- from `olinks.txt`
 
@@ -49,7 +49,7 @@ Available flags:
 
 ```
 -i </path/to/txt/file> # Allows to specify input txt file with links
--d </path/to/save/dir> # Allows to specify dir where to store downloads
+-o </path/to/save/dir> # Allows to specify dir where to store downloads
 -x <1-many> # Specify number of concurrent connections. 4-16 recommended.
 -j <1-many> # Specify number of parallel files download (from list). 2-4 recommended
 -t <token> # You can provide token as an flag
@@ -57,4 +57,4 @@ Available flags:
 
 Just run the script with them, for example:
 
-`./modelget.sh -i "my_links.txt" -d ~/Download/my_collection/ -x 4 -j 2 -t abeb`
+`./modelget.sh -i "my_links.txt" -o ~/Download/my_collection/ -x 4 -j 2 -t abeb`
