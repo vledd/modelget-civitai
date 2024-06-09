@@ -1,3 +1,3 @@
-https://civitai.com/api/download/models/123456
-https://civitai.com/api/download/models/654321
+https://civitai.com/models/123456/model-name
+https://civitai.com/models/654321/model-name
 *more links here*

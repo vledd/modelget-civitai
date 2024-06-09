@@ -28,8 +28,8 @@ First of all, clone this repo and open `olinks.txt` file or create your own file
 Write down Civitai links there, one link per line. Example:
 
 ```
-https://civitai.com/api/download/models/123456
-https://civitai.com/api/download/models/654321
+https://civitai.com/models/123456/model-name
+https://civitai.com/models/654321/model-name
 *more links here*
 ```
 
@@ -57,4 +57,4 @@ Available flags:
 
 Just run the script with them, for example:
 
-`./modelget.sh -i "my_links.txt" -o ~/Download/my_collection/ -x 4 -j 2 -t abeb`
+`./modelget.sh -i "my_links.txt" -o ~/Download/my_collection/ -x 4 -j 2 -t abeb123`
